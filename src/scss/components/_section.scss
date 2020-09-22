@@ -1,0 +1,10 @@
+.talents{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+}
+
+article{
+  flex-direction: column;
+  justify-content:center;
+}
