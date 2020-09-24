@@ -2,4 +2,8 @@ footer{
   display:flex;
   justify-content:center;
   background-color: var(--color-bg-tertiary);
+
+  p{
+    color: var(--color-white);
+  }
 }

@@ -1,10 +1,17 @@
 .talents{
   display:flex;
+  justify-content:center;
+  align-items:center;
   flex-direction:row;
   flex-wrap:wrap;
+  margin-top: 20px;
 }
 
 article{
+  display:flex;
   flex-direction: column;
   justify-content:center;
+  align-items:center;
+  text-align:center;
+  max-width:70%;
 }
