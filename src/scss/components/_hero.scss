@@ -6,6 +6,25 @@
   text-align:center;
   align-items:center;
 
-  background-color: var(--color-bg-secondary);
+
+  padding:var(--padding-large) var(--padding-thin) var(padding-thin);
+
+  .wrapper{
+    width:100%;
+    background-color: var(--color-bg-secondary);
+  }
+
+}
+
+
+@media screen and (min-width: $vw-medium){
+
+  .hero .wrapper{
+    display:flex;
+    flex-direction:row;
+    div{
+      width:48%;
+    }
+  }
 }
 

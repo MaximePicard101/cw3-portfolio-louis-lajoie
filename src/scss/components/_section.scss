@@ -7,11 +7,34 @@
   margin-top: 20px;
 }
 
+@media screen and (min-width: $vw-medium) {
+.talents{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  article{
+    width:48%;
+  }
+}
+}
+
+@media screen and (min-width: $vw-large) {
+  .talents{
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    article{
+      width:30%;
+
+    }
+  }
+}
+
+
 article{
   display:flex;
   flex-direction: column;
   justify-content:center;
   align-items:center;
   text-align:center;
-  max-width:70%;
 }

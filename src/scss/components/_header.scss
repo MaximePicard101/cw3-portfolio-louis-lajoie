@@ -1,9 +1,21 @@
 header{
+  padding: 0 var(--padding-thin);
   display:flex;
   flex-direction:row;
   text-align:center;
   justify-content:center;
   flex-grow:1;
+  }
+
+  @media screen and (min-width: $vw-medium){
+    .entete{
+      display:flex;
+      flex-direction:row;
+    }
+
+    .nav{
+      width:auto;
+    }
   }
 
 
