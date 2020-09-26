@@ -2,8 +2,8 @@
 
 
 .talents img{
-  padding-top: 5px;
-  width:11%;
+  margin: 5px;
+  width:40px;
 }
 
 header img{
@@ -15,9 +15,10 @@ header img{
 
 .louis{
   margin:auto;
+  padding-top:20px;
 }
 
-@media screen and (min-width: $vw-thin) {
+@media screen and (min-width: 0) {
 .louis{
   width:40%;
 }
